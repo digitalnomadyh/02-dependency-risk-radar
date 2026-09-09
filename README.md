@@ -1,5 +1,7 @@
 # Cross-Team Dependency & Risk Radar
 
+> Part of the [Platform Governance & Regionalization Agent Suite](https://github.com/digitalnomadyh/platform-governance-agent-suite)
+
 Reads a multi-team task list (CSV), builds a dependency graph, flags blocked
 and overdue tasks, and surfaces the critical path in a markdown risk report.
 Models the kind of quarterly KPI/risk reporting done for a multi-region
