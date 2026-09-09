@@ -155,7 +155,7 @@ def write_report(tasks, blocked, overdue, chain, out_path, exec_summary=None):
         lines.append("_Not determined (no dependency chain found)._")
 
     os.makedirs(os.path.dirname(out_path), exist_ok=True)
-    with open(out_path, "w") as f:
+    with open(out_path, "w", encoding="utf-8") as f:
         f.write("\n".join(lines))
     return out_path
 
