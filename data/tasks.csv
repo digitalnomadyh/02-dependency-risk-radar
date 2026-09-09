@@ -1,0 +1,10 @@
+task_id,title,team,status,due_date,depends_on,notes
+T-101,Provision compliant data store in new region,Infra,in_progress,2026-09-20,,Waiting on ISO 27001 attestation
+T-102,ISO 27001 attestation for new region,Compliance,not_started,2026-09-15,,Auditor scheduling slip
+T-103,API gateway regional routing config,Platform,not_started,2026-09-25,T-101,
+T-104,Developer docs update for new region,DevRel,not_started,2026-09-28,T-103,
+T-105,Security review of regional routing,Security,not_started,2026-09-26,T-103,Security team is short-staffed this sprint
+T-106,Load testing in new region,QA,not_started,2026-10-02,T-103;T-105,
+T-107,Go-live readiness review,Program,not_started,2026-10-05,T-104;T-106,
+T-108,Update SDK for new region endpoints,Platform,in_progress,2026-09-18,,On track
+T-109,Partner communication plan,BizOps,done,2026-09-05,,
