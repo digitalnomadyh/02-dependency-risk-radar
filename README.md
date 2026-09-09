@@ -20,7 +20,7 @@ program like Global Transaction Management (APAC/EMEA/US) — but automated.
   if you want Claude to write an executive summary on top of the report
 
 ```bash
-pip install networkx anthropic
+pip install -r requirements.txt
 ```
 
 ## Task CSV format
